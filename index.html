@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="pl">
+<head>
+  <title>EntryPL — Wprowadzanie produktów na rynek polski</title>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="EntryPL: Wprowadzanie produktów do polskich sieci i marketplace'ów.">
+  <link rel="alternate" hreflang="pl" href="https://entrypl.com/">
+  <link rel="alternate" hreflang="en" href="https://entrypl.com/en">
+  <link rel="icon" href="logo.svg">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <style>
+    html{scroll-behavior:smooth}
+    .glass{background:rgba(255,255,255,.72);backdrop-filter:saturate(180%) blur(8px)}
+    .gradient{background: radial-gradient(1200px 600px at 10% -10%, rgba(99,102,241,.2), transparent 60%), 
+                         radial-gradient(1000px 500px at 110% -20%, rgba(16,185,129,.15), transparent 50%);}
+    .parallax{background-image: linear-gradient(180deg, rgba(0,0,0,.0), rgba(0,0,0,.05));}
+  </style>
+</head>
+<body class="bg-white text-neutral-900 antialiased gradient">
+  <header class="sticky top-0 z-50 glass border-b">
+    <div class="max-w-6xl mx-auto px-4 py-3 flex items-center justify-between">
+      <a href="index.html" class="flex items-center gap-2 font-semibold">
+        <img src="logo.svg" class="w-6 h-6" alt="EntryPL logo"><span>EntryPL</span>
+      </a>
+      <nav class="flex items-center gap-2 md:gap-6 text-sm">
+        <a href="#oferta" class="hover:opacity-70 transition">Oferta</a>
+        <a href="#proces" class="hover:opacity-70 transition">Jak pracujemy</a>
+        <a href="en.html" class="px-3 py-1.5 rounded-md border hover:bg-neutral-50 transition">EN</a>
+        <a href="#kontakt" class="px-3 py-1.5 rounded-md bg-indigo-600 text-white hover:scale-[1.03] hover:bg-indigo-700 transition">Kontakt</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="relative overflow-hidden parallax">
+      <div class="max-w-6xl mx-auto px-4 py-20 grid lg:grid-cols-2 gap-10 items-center">
+        <div data-aos="fade-up">
+          <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+            Wprowadzimy Twoje produkty do <span class="underline decoration-4 decoration-indigo-500 underline-offset-4">polskich sieci</span>
+          </h1>
+          <p class="mt-5 text-lg text-neutral-600">
+            Pracujemy z producentami bez obecności w Polsce. Dobieramy kanały sprzedaży i negocjujemy listing.
+          </p>
+          <div class="mt-8 flex flex-wrap gap-3" data-aos="fade-up" data-aos-delay="100">
+            <a href="#kontakt" class="px-5 py-3 rounded-md bg-indigo-600 text-white hover:scale-105 hover:bg-indigo-700 transition">Porozmawiajmy</a>
+            <a href="#proces" class="px-5 py-3 rounded-md border hover:bg-neutral-50 hover:scale-105 transition">Zobacz proces</a>
+          </div>
+        </div>
+        <div class="relative rounded-2xl border p-6 shadow-sm" data-aos="zoom-in">
+          <ul class="space-y-3 text-sm">
+            <li class="transition hover:translate-x-1">• Audyt potencjału i dopasowanie kategorii</li>
+            <li class="transition hover:translate-x-1">• Oferta PL/EN i materiały sprzedażowe</li>
+            <li class="transition hover:translate-x-1">• Prezentacje dla sieci, negocjacje, listing</li>
+            <li class="transition hover:translate-x-1">• Logistyka, etykiety, zgodność (PL/EU)</li>
+            <li class="transition hover:translate-x-1">• Pilotaż i skalowanie</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <section id="oferta" class="border-t bg-neutral-50">
+      <div class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="text-2xl font-semibold" data-aos="fade-up">Oferta</h2>
+        <div class="grid md:grid-cols-3 gap-6 mt-6">
+          <div class="p-6 bg-white border rounded-xl hover:shadow-md transition" data-aos="fade-up">
+            <h3 class="font-medium">Analiza i strategia wejścia</h3>
+            <p class="text-sm text-neutral-600 mt-2">Popyt, konkurencja i ceny; wybór kanałów.</p>
+          </div>
+          <div class="p-6 bg-white border rounded-xl hover:shadow-md transition" data-aos="fade-up" data-aos-delay="50">
+            <h3 class="font-medium">Przygotowanie oferty</h3>
+            <p class="text-sm text-neutral-600 mt-2">Tłumaczenia, karty produktowe, cenniki, prezentacje.</p>
+          </div>
+          <div class="p-6 bg-white border rounded-xl hover:shadow-md transition" data-aos="fade-up" data-aos-delay="100">
+            <h3 class="font-medium">Sprzedaż i negocjacje</h3>
+            <p class="text-sm text-neutral-600 mt-2">Kontakt z sieciami, warunki, wdrożenie.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="proces" class="border-t">
+      <div class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="text-2xl font-semibold" data-aos="fade-up">Jak pracujemy</h2>
+        <ol class="mt-6 grid md:grid-cols-3 gap-6 list-decimal list-inside">
+          <li class="p-6 border rounded-xl hover:shadow-md transition" data-aos="fade-up">Kwalifikacja producenta i SKU</li>
+          <li class="p-6 border rounded-xl hover:shadow-md transition" data-aos="fade-up" data-aos-delay="50">Mini‑audyt cen i marż w PL</li>
+          <li class="p-6 border rounded-xl hover:shadow-md transition" data-aos="fade-up" data-aos-delay="100">Pilotaż w wybranej sieci</li>
+        </ol>
+      </div>
+    </section>
+
+    <section id="kontakt" class="border-t bg-neutral-50">
+      <div class="max-w-6xl mx-auto px-4 py-16">
+        <h2 class="text-2xl font-semibold" data-aos="fade-up">Kontakt</h2>
+        <p class="text-neutral-600 mt-2">Napisz kilka zdań o firmie i produktach. Odpowiemy w 24–48h.</p>
+        <form class="mt-6 grid md:grid-cols-2 gap-4" method="POST" action="https://formspree.io/f/your-id" data-aos="fade-up">
+          <input name="company" placeholder="Nazwa firmy" class="border rounded-md p-3" required>
+          <input type="email" name="email" placeholder="E-mail" class="border rounded-md p-3" required>
+          <input name="website" placeholder="Strona www (opcjonalnie)" class="border rounded-md p-3 md:col-span-2">
+          <textarea name="message" placeholder="Opisz produkty i rynek docelowy" class="border rounded-md p-3 md:col-span-2" rows="5" required></textarea>
+          <button class="px-5 py-3 rounded-md bg-indigo-600 text-white hover:scale-105 hover:bg-indigo-700 transition md:col-span-2">Wyślij</button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="border-t">
+    <div class="max-w-6xl mx-auto px-4 py-10 text-sm text-neutral-500 flex items-center justify-between">
+      <p>© <span id="year"></span> EntryPL</p>
+      <div class="flex items-center gap-4">
+        <a href="en.html" class="hover:underline">English</a>
+        <a href="index.html" class="hover:underline">Polski</a>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({ once: true, offset: 60, duration: 600, easing: 'ease-out' });
+    document.getElementById('year').textContent = new Date().getFullYear();
+    const hero = document.querySelector('section.parallax');
+    window.addEventListener('scroll', () => {
+      const yy = window.scrollY * 0.1;
+      hero.style.backgroundPosition = `center calc(0px + ${yy}px)`;
+    });
+  </script>
+</body>
+</html>
